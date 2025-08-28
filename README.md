@@ -59,9 +59,3 @@ Este projeto foi desenvolvido como prática de front-end, com foco em usabilidad
 * **GitHub**: https://github.com/DayanaNogueira/site-receitas
 * **LinkedIn**: https://www.linkedin.com/in/dayana-nogueira-2744b3363/
 * **E-mail**: nogueira.dayana08@gmail.com
-
----
-
-## **📄 Licença**
-
-Este projeto está sob a Licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
