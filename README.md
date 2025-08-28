@@ -1,15 +1,17 @@
-🍴 Meu Caderno de Receitas
+**🍴 Meu Caderno de Receitas**
 
 Um site dinâmico e interativo, projetado para ser o seu melhor companheiro na cozinha!
 Explore, filtre e personalize seu próprio caderno de receitas digital com facilidade e diversão.
 
-🚧 Status do Projeto
+
+#**🚧 Status do Projeto**
 
 Atualmente em desenvolvimento ativo.
 Novas funcionalidades, melhorias de design e otimizações de código estão a caminho. ✨
 Feedbacks são sempre bem-vindos!
 
-✨ Visão Geral & Funcionalidades
+
+**✨ Visão Geral & Funcionalidades**
 
 Este projeto foi desenvolvido como prática de front-end, com foco em usabilidade e interatividade.
 
@@ -27,7 +29,8 @@ Este projeto foi desenvolvido como prática de front-end, com foco em usabilidad
 
 📲 Ações Convenientes → Compartilhe no WhatsApp ou imprima para uso offline.
 
-🛠️ Tecnologias Utilizadas
+
+**🛠️ Tecnologias Utilizadas**
 
 HTML5 → Estrutura semântica e acessível.
 
@@ -35,25 +38,28 @@ CSS3 → Layout responsivo, com gradientes, sombras sutis e transições suaves.
 
 JavaScript → Lógica de filtragem, busca, manipulação do DOM e interatividade.
 
-▶️ Como Rodar Localmente
+
+
+**▶️ Como Rodar Localmente**
 
 Clone este repositório:
-
 git clone https://github.com/DayanaNogueira/site-receitas.git
 
 
 Abra o arquivo index.html diretamente no navegador.
 (Não é necessário servidor ou configuração adicional).
 
-📸 Preview
+
+**📸 Preview**
 <img width="1354" height="588" alt="image" src="https://github.com/user-attachments/assets/fba263c3-b023-49cd-89de-06925dece91f" />
+
+
 👩‍💻 Conecte-se Comigo
 
 GitHub: https://github.com/DayanaNogueira/site-receitas
-
 LinkedIn: https://www.linkedin.com/in/dayana-nogueira-2744b3363/
-
 E-mail: nogueira.dayana08@gmail.com
+
 
 📄 Licença
 
