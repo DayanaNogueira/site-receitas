@@ -1,7 +1,7 @@
 # 🍴 Meu Caderno de Receitas
 
 Um site dinâmico e interativo, projetado para ser o seu melhor companheiro na cozinha!
-Explore, filtre e personalize seu próprio caderno de receitas digital com facilidade e diversão.
+Explore, filtre e salve as melhores receitas.
 
 ---
 
