@@ -1,47 +1,53 @@
-Meu Caderno de Receitas 👩‍🍳
+🍴 Meu Caderno de Receitas
 
-Um site dinâmico e interativo, cuidadosamente projetado para ser seu melhor companheiro na cozinha! Explore, filtre e personalize seu próprio caderno de receitas digital com facilidade e prazer.
+Um site dinâmico e interativo, projetado para ser o seu melhor companheiro na cozinha!
+Explore, filtre e personalize seu próprio caderno de receitas digital com facilidade e diversão.
 
-⚠️ Status do Projeto: Em Construção
-Este projeto está em desenvolvimento ativo e contínuo. 🚧 Novas funcionalidades, otimizações de código e aprimoramentos de design estão a caminho! Sua paciência e feedback são muito apreciados. Fique de olho nas próximas atualizações. ✨
+🚧 Status do Projeto
 
-✨ Visão Geral & Funcionalidades Principais
-Desenvolvido como um projeto pessoal para aprimorar minhas habilidades em front-end, esta aplicação demonstra um foco especial em usabilidade e interatividade. 🚀 Consumindo um conjunto de dados de receitas, o site oferece uma gama de funcionalidades intuitivas:
+Atualmente em desenvolvimento ativo.
+Novas funcionalidades, melhorias de design e otimizações de código estão a caminho. ✨
+Feedbacks são sempre bem-vindos!
 
-Filtros Inteligentes: 🍜 Navegue sem esforço por categorias como Massas, Aves e Sobremesas.
+✨ Visão Geral & Funcionalidades
 
-Busca Rápida: 🔍 Encontre a receita perfeita em segundos com uma barra de pesquisa responsiva.
+Este projeto foi desenvolvido como prática de front-end, com foco em usabilidade e interatividade.
 
-Gerenciamento de Favoritos: ❤️ Salve suas receitas preferidas, que são armazenadas localmente no navegador para acesso rápido.
+🔑 Principais recursos:
 
-Detalhes Dinâmicos: 📖 Ao selecionar uma receita, uma visualização detalhada exibe os ingredientes e o modo de preparo.
+🍜 Filtros Inteligentes → Categorias como Massas, Aves e Sobremesas.
 
-Ajuste de Porções: 🔢 Altere o número de porções e veja os ingredientes sendo atualizados automaticamente.
+🔍 Busca Rápida → Encontre receitas em segundos.
 
-Ações Convenientes: 📲 Compartilhe receitas via WhatsApp ou imprima-as para uso offline.
+❤️ Favoritos Locais → Salve receitas no navegador para acesso instantâneo.
 
-🚀 Tecnologias Empregadas
-Este projeto é construído sobre a tríade fundamental do desenvolvimento web moderno, garantindo uma base sólida e performática:
+📖 Detalhes Dinâmicos → Veja ingredientes e modo de preparo completos.
 
-HTML5: 📄 A espinha dorsal semântica que organiza o conteúdo de forma lógica e acessível.
+🔢 Ajuste de Porções → Ingredientes atualizados automaticamente.
 
-CSS3: 🎨 Responsável por um design moderno e totalmente responsivo, utilizando gradientes vibrantes, efeitos de sombra sutis e transições suaves para uma experiência visual envolvente.
+📲 Ações Convenientes → Compartilhe no WhatsApp ou imprima para uso offline.
 
-JavaScript: 💡 A inteligência por trás da aplicação, orquestrando a lógica de filtragem, busca, manipulação do DOM e toda a interatividade.
+🛠️ Tecnologias Utilizadas
 
-▶️ Como Visualizar o Projeto Localmente
-Deseja explorar o Caderno de Receitas em sua máquina? É super simples!
+HTML5 → Estrutura semântica e acessível.
+
+CSS3 → Layout responsivo, com gradientes, sombras sutis e transições suaves.
+
+JavaScript → Lógica de filtragem, busca, manipulação do DOM e interatividade.
+
+▶️ Como Rodar Localmente
 
 Clone este repositório:
 
-Abra o arquivo index.html diretamente em seu navegador web preferido. Não é necessário servidor ou configurações adicionais.
+git clone https://github.com/DayanaNogueira/site-receitas.git
 
-📸 Dê uma Olhada! (Screenshots)
+
+Abra o arquivo index.html diretamente no navegador.
+(Não é necessário servidor ou configuração adicional).
+
+📸 Preview
 <img width="1354" height="588" alt="image" src="https://github.com/user-attachments/assets/fba263c3-b023-49cd-89de-06925dece91f" />
-
-
-👨‍💻 Vamos Conectar?
-Estou sempre aberta a novas conexões, projetos colaborativos ou apenas para uma boa conversa sobre tecnologia. Sinta-se à vontade para entrar em contato!
+👩‍💻 Conecte-se Comigo
 
 GitHub: https://github.com/DayanaNogueira/site-receitas
 
@@ -49,5 +55,6 @@ LinkedIn: https://www.linkedin.com/in/dayana-nogueira-2744b3363/
 
 E-mail: nogueira.dayana08@gmail.com
 
-Licença
-Este projeto é distribuído sob a Licença MIT. Para mais detalhes, consulte o arquivo .
+📄 Licença
+
+Este projeto está sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
