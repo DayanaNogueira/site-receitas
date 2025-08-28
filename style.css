@@ -1,0 +1,262 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0a0a1a, #151531, #1e1b3f);
+  color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* ===== CABEÇALHO ===== */
+.header {
+  background: linear-gradient(135deg, #0d0d1a, #1a1f3d, #23264d);
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.header-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ff77a9, #6ec1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 2px 12px rgba(0,0,0,0.7);
+}
+
+/* ===== PESQUISA E ORDENAÇÃO ===== */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem auto;
+  flex-wrap: wrap;
+}
+
+.search-bar input,
+.sort-bar select {
+  padding: 0.9rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  background: rgba(255, 255, 255, 0.07);
+  color: #f5f5f5;
+  backdrop-filter: blur(6px);
+  box-shadow: inset 0 4px 10px rgba(0,0,0,0.5);
+  transition: 0.2s;
+  font-size: 0.95rem;
+}
+
+.search-bar input::placeholder {
+  color: #bbbbbb;
+}
+
+.search-bar input:focus,
+.sort-bar select:hover {
+  background: rgba(255, 255, 255, 0.12);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+/* ===== CORRIGIDO: SELECT DE ORDENAÇÃO ===== */
+.sort-bar select {
+  background: linear-gradient(135deg, #0d0d1a, #1a1f3d, #23264d);
+  color: #f5f5f5;
+}
+
+.sort-bar select option {
+  background: #1e1b3f;
+  color: #f5f5f5;
+}
+
+/* ===== BOTÕES DE CATEGORIA ===== */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin: 1.2rem auto;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #6ec1ff, #ff77a9);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: linear-gradient(135deg, #ff77a9, #6ec1ff);
+  transform: scale(1.05);
+}
+
+/* ===== GRID DE RECEITAS ===== */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.recipe-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-6px);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.recipe-info {
+  padding: 1rem;
+}
+
+.recipe-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.fav-btn {
+  float: right;
+  cursor: pointer;
+}
+
+/* ===== DETALHES DA RECEITA REFINADO ===== */
+.recipe-details {
+    display: none;
+    padding: 2rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+}
+
+.recipe-details h2 {
+    font-size: 2rem;
+    background: linear-gradient(135deg, #ff77a9, #6ec1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 2px 8px rgba(0,0,0,0.6);
+    margin-bottom: 1rem;
+}
+
+.recipe-details img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 1rem 0;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
+.recipe-details h3 {
+    font-size: 1.4rem;
+    margin: 1rem 0 0.5rem 0;
+    color: #f5f5f5;
+}
+
+.recipe-details ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-details li {
+    margin-bottom: 0.6rem;
+    padding: 0.4rem 0.6rem;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.recipe-details li:hover {
+    background: rgba(255,119,169,0.15);
+}
+
+/* ===== PORÇÕES ===== */
+.serving-size {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.serving-size input {
+    width: 60px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255,255,255,0.07);
+    color: #f5f5f5;
+    text-align: center;
+}
+
+/* ===== BOTÃO VOLTAR MODERNO ===== */
+.back-btn {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #25D366, #128C7E); /* verde WhatsApp */
+    color: white;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
+.back-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+/* ===== BOTÕES DE AÇÃO ===== */
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.action-buttons button {
+    padding: 0.8rem 1.4rem;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #6ec1ff, #ff77a9);
+    color: white;
+}
+
+.action-buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
+/* ===== RESULT COUNT ===== */
+.result-count {
+  text-align: center;
+  margin-bottom: -1rem;
+}
